@@ -4,7 +4,7 @@
 ##Implementation
 I implemented a crawler, indexer, and querier.
 
-Crawler output a text file containing each webpage's URL, HTML, and given unique ID.
+Crawler output a folder with text files containing each webpage's URL, HTML, and given unique ID.
 
 Indexer took the crawler input and created another file containing every word over three characters and what files they appeared in.
 
