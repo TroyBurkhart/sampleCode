@@ -7,8 +7,8 @@ I implemented a crawler, indexer, and querier.
 ### Crawler
 Crawler output a folder with text files containing each webpage's URL, HTML, and given unique ID.
 
-This code utilized a bag to store all the URLs found
-when crawling each webpage and is iterated through until no webpages are left in the bag. THe hashtable is used to track what pages have beem visited already to make sure the crawler does not go over the same page twice. Each webpage gets written to a separate file.
+This code utilized a bag to store all the URLs found.
+when crawling each webpage and is iterated through until no webpages are left in the bag. The hashtable is used to track what pages have beem visited already to make sure the crawler does not go over the same page twice. Each webpage gets written to a separate file.
 
 ### Indexer
 Indexer takes the crawler input and created another file containing every word over three characters and what files they appeared in.
